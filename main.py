@@ -233,9 +233,9 @@ if __name__ == "__main__":
     options["use_confidence"] = True
 
     st_time = str(time.strftime('%Y_%m_%d_%H_%M', time.localtime(time.time())))
+    mkdir("results")
     save_dir = osp("results", st_time)
-    if not os.path.exists(save_dir):
-        os.mkdir(save_dir)
+    mkdir(save_dir)
     data_root_dir = "data"
     for data_dir in os.listdir(data_root_dir):
         options["fig_path"] = osp(save_dir, data_dir)
