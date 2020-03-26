@@ -1,10 +1,10 @@
 This is the implementation of CVPR2020 paper "Stereoscopic Flash and No-Flash Photography for Shape and Albedo Recovery".
 # Introduction
 We adopt a stereo camera and a flashlight, take three images, and recover high-quality shape and albedo. Three images construct two image pairs: a no-flash stereo image pair and a flash/no-flash pair.
-From the stereo pair, we obtain coarse shape and normal map. From the flash/no-flash image pair, we recover the high-frequency details missing in the coarse shape. Further, an albedo map is computed from the flash/no-flash pair up to flashlight intensity scale.
+From the stereo pair, we obtain coarse shape and normal map. From the flash/no-flash image pair, we recover the high-frequency details missied in the coarse shape. Further, an albedo map is computed from the flash/no-flash pair up to flashlight intensity scale.
 ![pipeline](/img/pipeline.png) 
 # Usage
-The code was tested on Ubuntu 16.04 and MacOS 10.15 with Python 3.6.
+Code was tested on Ubuntu 16.04 and MacOS 10.15 with Python 3.6.
 
 1. Download data from [this link](https://drive.google.com/open?id=1kERor3ToBMs1LbGFv4X_IDbGvPc-XVDe), and extract it in the root directory.
 
