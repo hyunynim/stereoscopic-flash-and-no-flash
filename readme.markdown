@@ -1,5 +1,7 @@
-# Introduction
 This is the implementation of CVPR2020 paper "Stereoscopic Flash and No-Flash Photography for Shape and Albedo Recovery".
+# Introduction
+We recover high-quality shape and albedo from a flash/no-flash pair.
+![pipeline](/img/pipeline.pdf)
 # Usage
 Download data from [this link](https://drive.google.com/open?id=1kERor3ToBMs1LbGFv4X_IDbGvPc-XVDe), and extract it in the root directory.
 
@@ -17,4 +19,4 @@ booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 }
 ```
 # Contact
-For any questions/comments/bug report, please feel free to contact cao.xu@ist.osaka-u.ac.jp
+For any questions/comments/bug reports, please feel free to contact cao.xu@ist.osaka-u.ac.jp
